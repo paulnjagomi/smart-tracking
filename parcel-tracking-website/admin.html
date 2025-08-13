@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Admin - Parcel Tracker</h1>
+  </header>
+
+  <section class="admin">
+    <h2>Add/Update Parcel</h2>
+    <input type="text" id="adminKey" placeholder="Enter Admin Key" />
+    <input type="text" id="newId" placeholder="Tracking ID" />
+    <textarea id="newStatus" placeholder="Parcel Status"></textarea>
+    <button onclick="updateParcel()">Save Parcel Info</button>
+    <div id="adminResult"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Parcel Tracker. Admin Panel.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
